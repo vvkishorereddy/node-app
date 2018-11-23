@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "companyLogo": "public/img/client-logo/company-1.png"
+  },
+  {
+    "id": "2",
+    "companyLogo": "public/img/client-logo/company-2.png"
+  },
+  {
+    "id": "3",
+    "companyLogo": "public/img/client-logo/company-3.png"
+  },
+  {
+    "id": "4",
+    "companyLogo": "public/img/client-logo/company-4.png"
+  },
+  {
+    "id": "5",
+    "companyLogo": "public/img/client-logo/company-5.png"
+  },
+  {
+    "id": "6",
+    "companyLogo": "public/img/client-logo/company-6.png"
+  },
+  {
+    "id": "7",
+    "companyLogo": "public/img/client-logo/company-7.png"
+  }
+]
