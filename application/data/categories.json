@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "accounting",
+    "icon": "flaticon-079-accounting"
+  },
+  {
+    "id": "2",
+    "title": "it sector",
+    "icon": "flaticon-110-mouse"
+  },
+  {
+    "id": "3",
+    "title": "design",
+    "icon": "flaticon-040-monitor-2"
+  },
+  {
+    "id": "4",
+    "title": "sales & marketing",
+    "icon": "flaticon-052-target"
+  },
+  {
+    "id": "5",
+    "title": "government",
+    "icon": "flaticon-043-worldwide-1"
+  },
+  {
+    "id": "6",
+    "title": "medical",
+    "icon": "flaticon-102-briefcase-1"
+  },
+  {
+    "id": "7",
+    "title": "customer service",
+    "icon": "flaticon-097-headset"
+  },
+  {
+    "id": "8",
+    "title": "writer",
+    "icon": "flaticon-061-contract-1"
+  }
+]
