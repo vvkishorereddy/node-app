@@ -9,71 +9,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="categories-wrapper">
-                    <a href="jobs.html">
-                        <i class="flaticon-079-accounting"></i>
-                        <h6>accounting</h6>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="categories-wrapper">
-                    <a href="jobs.html">
-                        <i class="flaticon-110-mouse"></i>
-                        <h6>it sector</h6>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="categories-wrapper">
-                    <a href="jobs.html">
-                        <i class="flaticon-040-monitor-2"></i>
-                        <h6>design</h6>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="categories-wrapper">
-                    <a href="jobs.html">
-                        <i class="flaticon-052-target"></i>
-                        <h6>sales & marketing</h6>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="categories-wrapper">
-                    <a href="jobs.html">
-                        <i class="flaticon-043-worldwide-1"></i>
-                        <h6>government</h6>
-                    </a>
-                </div>
-            </div>
 
+            {{#each categories}}
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="categories-wrapper">
                     <a href="jobs.html">
-                        <i class="flaticon-102-briefcase-1"></i>
-                        <h6>medical</h6>
+                        <i class="{{icon}}"></i>
+                        <h6>id {{id}} {{title}}</h6>
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="categories-wrapper">
-                    <a href="jobs.html">
-                        <i class="flaticon-097-headset"></i>
-                        <h6>customer service</h6>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="categories-wrapper">
-                    <a href="jobs.html">
-                        <i class="flaticon-061-contract-1"></i>
-                        <h6>writer</h6>
-                    </a>
-                </div>
-            </div>
+            {{/each}}
         </div>
     </div>
 </div>

@@ -3,6 +3,8 @@ const path = require("path");
 const exphbs = require("express-handlebars");
 const app = express();
 
+const HomeRoutes = require("./application/routes/HomeRoute");
+
 // variables
 const PORT = process.env.PORT || 8080;
 
@@ -24,9 +26,7 @@ app.use(
 app.use("/node_modules", express.static(path.join(__dirname, "node_modules")));
 
 // routes
-app.use("/", (req, res, next) => {
-  res.render("index");
-});
+app.use(HomeRoutes);
 
 // app start
 app.listen(PORT, () => {
