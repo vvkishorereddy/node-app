@@ -1,1 +1,18 @@
-jobs/index
+<div class="cbx-container">
+    {{> nav}}
+    <div class="cbx-jobs-listing-wrapper">
+        <div class="container">
+            {{> jobs/search}}
+            {{> jobs/sort}}
+            <div class="row">
+                {{> jobs/leftside}}
+                {{> jobs/jobs}}
+            </div>
+            {{> jobs/pagination}}
+
+        </div>
+    </div>
+    {{> footer}}
+    {{> jobs/js}}
+
+</div>
